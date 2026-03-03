@@ -1,0 +1,22 @@
+{
+  "name": "plugins",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "reset-git": "powershell -Command \"Remove-Item -Recurse -Force .git; git init; git add .; git commit -m 'Initial commit'; git remote add origin https://github.com/mianzainch000/plugins.git; git branch -M master; git push -u origin master --force\""
+  },
+  "dependencies": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "next": "15.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^9",
+    "eslint-config-next": "15.5.0",
+    "@eslint/eslintrc": "^3"
+  }
+}
